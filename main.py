@@ -13,7 +13,7 @@ data_list = data.to_dict(orient="records")
 # -----------------Timer/Flip-----------------------------------
 def flip_card():
     canvas.itemconfig(canvas_image, image=back_front)
-    canvas.itemconfig(french_text, text="English")
+    canvas.itemconfig(french_text, text="English Meaning")
     canvas.itemconfig(current_word, text=word["English"])
     window.after_cancel(timer)
 
